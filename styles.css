@@ -1,0 +1,134 @@
+body {
+    background-color: #F1F8E8;
+    margin-top: 90px;
+    font-family: "Outfit", sans-serif;
+    border: 1px solid #26355D;
+}
+
+header {
+    background-color: #D8EFD3;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 5px 0 #26355D;
+}
+
+header * {
+    display: inline;
+    width: 100%;
+}
+
+header li {
+    margin: 35px;
+    font-size: 1.2em;
+}
+
+header li a {
+    color: #006989;
+    text-decoration: none;
+}
+
+main {
+    color: #D8EFD3;
+}
+
+h1 {
+    background-color: #538392;
+    margin-right: 80px;
+    margin-top: 65px;
+    margin-left: 50px;
+    padding: 20px;
+    line-height: 1.5em;
+    float: left;
+    font-size: 3.5em;
+    border: 3px solid;
+    border-style: double;
+    border-width: 5px;
+    border-radius: 25px;
+}
+
+img {
+    background-color: #D8EFD3;
+    width: 50%;
+    margin-top: 20px;
+    border: 1px solid #006989;
+    border-radius: 4px;
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h3 {
+    color: #006989;
+    padding-left: 25px;
+    margin-top: 10px;
+}
+
+h2 {
+    padding: 10px;
+    color: #26355D;
+}
+
+p {
+    padding: 5px;
+    margin: 30px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    display: flex;
+    flex-direction: row;
+    background-color: #95D2B3;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+    border-bottom: 1px solid #26355D;
+
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.row2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #006989;
+}
+
+.serenity-space {
+    padding-right: 37%;
+    font-size: 1.5em;
+}
+
+.tagline-shadow {
+    box-shadow: 10px 10px 5px #6295A2;
+}
+
+.box {
+    border: 1px solid;
+    border-radius: 25px;
+    margin: 15px;
+    color: #F1F8E8;
+}
+
+.list {
+    background-color: #5ba883;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #F1F8E8;
+    line-height: 1.8em;
+    font-weight: 400;
+}
